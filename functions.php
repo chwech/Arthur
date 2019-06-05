@@ -7,11 +7,11 @@
  * @package Mokore
  */
  //检测主题更新 wpdaxue.com
- require_once(TEMPLATEPATH . '/theme-update-checker.php');
- $wpdaxue_update_checker = new ThemeUpdateChecker(
- 	'Mokore', //主题名字
- 	'http://img0.dfjcx.cn/mokore/info.json'  //info.json 的访问地址
- );
+//  require_once(TEMPLATEPATH . '/theme-update-checker.php');
+//  $wpdaxue_update_checker = new ThemeUpdateChecker(
+//  	'Mokore', //主题名字
+//  	'http://img0.dfjcx.cn/mokore/info.json'  //info.json 的访问地址
+//  );
 
 define( 'MOKORE_VERSION', '1.1' );
 

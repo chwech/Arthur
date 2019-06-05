@@ -651,11 +651,6 @@ $(function() {
     $(document).on("click", ".specsZan", function() {
         $(this).postLike();
     });
-
-    console.log("%c 江程训（CensuJiang） %c","background:#24272A; color:#ffffff","","http://dfjcx.cn");
-    console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/CensuJiang");
-    console.log("%c 友情提醒 %c","background:#24272A; color:#ffffff","","恭喜您开始学习Wordpress开发！本主题授权协议为Apache2.0，在二次开发本主题时请留下江程训的版权标记哦。");
-
 });
 
 /*

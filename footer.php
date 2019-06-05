@@ -29,7 +29,7 @@
 			<?php
 			$statistics_link = mokore_option('site_statistics_link') ? '<a href="'.mokore_option('site_statistics_link').'" target="_blank" rel="nofollow">Statistics</a>' : '';
 			$site_map_link = mokore_option('site_map_link') ? '<a href="'.mokore_option('site_map_link').'" target="_blank" rel="nofollow">Sitemap</a>' : '';
-			printf(esc_html__( '%1$s &nbsp; %2$s &nbsp; %3$s &nbsp; %4$s', 'mokore' ), $site_map_link, '<a href="https://wordpress.org/" rel="designer" target="_blank" rel="nofollow">WordPress</a>强力驱动', '/','主题<a href="http://mokore.dfjcx.cn" target="_blank" rel="friend">Mokore</a> BY <a href="https://dfjcx.cn" target="_blank" rel="friend">江程训</a>', $statistics_link);
+			printf(esc_html__( '%1$s &nbsp; %2$s &nbsp; %3$s &nbsp; %4$s', 'mokore' ), $site_map_link, '<a href="https://wordpress.org/" rel="designer" target="_blank" rel="nofollow">WordPress</a>强力驱动', $statistics_link);
 			?>
 			<!-- 站点运行天数开始 -->
 			<?php if (mokore_option('web_runtime') != '0') { ?>
