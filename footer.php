@@ -89,6 +89,9 @@
 	$('#share-3').share();
 	$('#share-4').share();
 </script>
+<!-- 百度自动推送脚本 start -->
+<?php include_once("baidu_js_push.php") ?>
+<!-- 百度自动推送脚本 end -->
 <!-- Footer代码开始 -->
 <?php if(mokore_option('footer_code')){ ?>
 <?php echo mokore_option('footer_code'); ?>
