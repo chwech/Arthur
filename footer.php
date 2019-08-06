@@ -92,6 +92,10 @@
 <!-- 百度自动推送脚本 start -->
 <?php include_once("baidu_js_push.php") ?>
 <!-- 百度自动推送脚本 end -->
+<!-- 代码高亮插件 start -->
+<script src="<?php bloginfo('template_url'); ?>/js/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- 代码高亮插件 end -->
 <!-- Footer代码开始 -->
 <?php if(mokore_option('footer_code')){ ?>
 <?php echo mokore_option('footer_code'); ?>
