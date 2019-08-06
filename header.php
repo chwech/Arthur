@@ -55,7 +55,7 @@ if (mokore_option('mokore_meta') == true) {
 <?php } ?>
 <!-- 自定义CSS结束 -->
 <!-- 代码高亮插件css start-->
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/highlight/styles/default.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/highlight/styles/github.css">
 <!-- 代码高亮插件css end-->
 <style>
 	.row { padding: 20px 0 0 20px }
